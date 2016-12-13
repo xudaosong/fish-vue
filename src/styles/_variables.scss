@@ -1,0 +1,41 @@
+/* ==========  TYPOGRAPHY  ========== */
+$preferred_font: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
+$performance_font: 'Helvetica', 'Arial', sans-serif !default;
+/* ==========  Color & Themes  ========== */
+$color-black: "0,0,0";
+$color-white: "255,255,255";
+$color-accent: "255,64,129";
+$color-primary: rgb(233,30,99) !default;
+$color-primary-contrast: rgb(255,255,255) !default;
+$text-color-primary: rgba(0,0,0, 0.87) !default;
+$text-link-color: rgb(255,64,129) !default;
+/* ==========  Header  ========== */
+$header-height: 48px !default;
+$header-bg-color: $color-primary !default;
+$header-text-color: $color-primary-contrast !default;
+$header-icon-size: 32px !default;
+$header-icon-margin: 24px !default;
+$header-indent: 16px !default;
+$header-baseline: 72px !default;
+/* ==========  Footer  ========== */
+$footer-height: 36px !default;
+$footer-bg-color: $color-primary !default;
+/* ==========  SHADOWS  ==========  */
+$shadow-key-umbra-opacity: 0.2 !default;
+$shadow-key-penumbra-opacity: 0.14 !default;
+$shadow-ambient-shadow-opacity: 0.12 !default;
+/* ANIMATION */
+$animation-curve-fast-out-slow-in: cubic-bezier(0.4, 0, 0.2, 1) !default;
+$animation-curve-linear-out-slow-in: cubic-bezier(0, 0, 0.2, 1) !default;
+$animation-curve-fast-out-linear-in: cubic-bezier(0.4, 0, 1, 1) !default;
+$animation-curve-default: $animation-curve-fast-out-slow-in !default;
+
+/* ==========  Card  ========== */
+
+$card-background-color: unquote("rgb(#{$color-white})") !default;
+$card-indent: 8px !default;
+$card-text-color: unquote("rgb(#{$color-black})") !default;
+$card-image-placeholder-color: unquote("rgb(#{$color-accent})") !default;
+$card-supporting-text-text-color: unquote("rgba(#{$color-black}, 0.54)") !default;
+$card-border-color: rgba(0,0,0,0.1) !default;
+$card-subtitle-color: unquote("rgba(#{$color-black}, 0.54)") !default;
